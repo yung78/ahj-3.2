@@ -36,8 +36,8 @@
   "scripts": {
     "lint": "eslint .",
     "start": "webpack serve --mode development",
-    "build": "webpack --mode production"
-   
+    "build": "webpack --mode production",
+    "test": "jest --coverage"
   },
   "jest": {
     "testEnvironment": "jsdom"
